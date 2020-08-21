@@ -13,8 +13,7 @@ end
 def reverse_collect_word (string)
   array = string.split 
   array.collect do |word|
-    reverse_word = word.reverse
-    reverse_word
+    puts word.reverse
   end
   array.join (" ")
 end
