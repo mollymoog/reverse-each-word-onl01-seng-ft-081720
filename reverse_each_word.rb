@@ -12,7 +12,9 @@ end
 def reverse_collect_word (string)
   array = string.split 
   array.collect do |word|
+    binding.pry
     reverse_word = word.reverse
+    binding.pry
     array << reverse_word
   end
   array.join (" ")
