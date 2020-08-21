@@ -9,7 +9,6 @@ def reverse_each_word (string)
 end
 
 def reverse_each_word (string)
-  array = string.split
   string.collect do |word|
     reverse_word = word.reverse
   end
