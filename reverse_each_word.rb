@@ -14,6 +14,7 @@ def reverse_each_word (string)
   array = string.split 
   array.collect do |word|
     drow = word.reverse
+    array << drow
     binding.pry
   end
   array
